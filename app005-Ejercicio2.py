@@ -1,8 +1,8 @@
 try:
-    print("alpha"[1/0])
+    print("alpha"[23])
 except ZeroDivisionError:
-    print("cero")
+    print("Error: División por cero")
 except IndexError:
-    print("índice")
+    print("Error: Índice fuera de rango")
 except:
-    print("algo")
+    print("Error desconocido")
